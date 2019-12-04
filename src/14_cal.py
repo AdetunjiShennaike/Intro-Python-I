@@ -22,3 +22,8 @@ and does the following:
 import sys
 import calendar
 from datetime import datetime
+
+def calCheck(m=12, y=2019):
+  print(calendar.prmonth(y,m))
+
+calCheck()
